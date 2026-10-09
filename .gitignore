@@ -1,19 +1,4 @@
-# Virtualenv: ignore third-party packages, keep project source stored inside it
-Main/OkhayfinalStart/.venv/*
-!Main/OkhayfinalStart/.venv/Lib/
-Main/OkhayfinalStart/.venv/Lib/*
-!Main/OkhayfinalStart/.venv/Lib/site-packages/
-Main/OkhayfinalStart/.venv/Lib/site-packages/*
-!Main/OkhayfinalStart/.venv/Lib/site-packages/Project/
-!Main/OkhayfinalStart/.venv/Lib/site-packages/Michhayy/
-!Main/OkhayfinalStart/.venv/Lib/site-packages/DatabaseConnection.py
-
-# Archives and build output
-*.rar
 build/
 dist/
 __pycache__/
 *.pyc
-
-# IDE per-user state
-.idea/workspace.xml
